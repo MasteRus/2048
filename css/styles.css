@@ -1,0 +1,162 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+table{
+	background-color:#CDC0B4;
+	/*border-collapse: collapse;*/
+	
+}
+td{
+	width:100px;	
+	height:100px;
+	
+	border: 5px solid #BBADA0 ; /* Рамка вокруг таблицы class="roof"*/
+
+	
+}
+
+table, td{
+	text-align: center; 
+	border-radius: 15px ;
+}
+body{
+
+background-color:#FAF8EF;
+}
+a{
+	text-decoration:none;
+}
+#CentralDiv{
+	margin:0 auto;
+	width:430px;
+	
+}
+#HeadingContainer{
+float: left;
+min-width: 430px;
+/*border:1px solid;*/
+}
+#GameInfoContainer{
+float:left;
+min-width:10px;
+height: 175px;
+}
+#scoresContainer{
+/*background: #bdc3c7;*/
+display:block;
+float:right;
+
+height: 80px;
+/*border:1px solid red;*/
+}
+
+#YourScoreDiv{
+	/*padding-top:30px;*/
+	padding:20px 30px 0px 30px;
+	float:right;
+	height:40px;
+	margin-left:10px;
+	/*background-color:#AAAAAA;*/
+	background-color:#BBADA0;
+	border-radius:10px;
+	margin-top:15px;
+}
+#BestScoreDiv{
+   /*padding-top:30px;*/
+   padding:20px 30px 0px 30px;
+   float:right;
+   height:40px;
+   /*background-color:#BBBBBB;*/
+   background-color:#BBADA0;
+   border-radius:10px;
+   margin-top:15px;
+}
+
+
+#NewGameButton{
+float:left;
+border-radius:10px;
+height:40px;
+}
+#tableContainer{
+float:left;
+}
+
+h1,h4{
+color:#776E65;
+float:left;
+display:block;
+}
+h4{
+	margin-bottom: 20px; margin-top: 20px;
+	/*border:1px solid blue;*/
+}
+
+
+
+#NewGameButton{
+	/*width:120px;
+	height:400px;
+	background-color:#8F7A66;
+	*/
+    display: block;
+	float:right;
+    height: 60px;
+}
+.NewGameP{
+padding: 10px 20px;
+background: #bdc3c7; 
+margin-top: 10px; margin-bottom: 0px;
+border-radius:10px;
+/*border:1px solid blue; 
+padding-top: 10px; padding-bottom: 10px; 
+*/
+/*width:90px;*/
+}
+
+
+
+.x2{
+background-color:#EEE4DA;
+}
+.x4{
+background-color:#EAE0C8; 
+}
+.x8{
+background-color:#F59563; 
+}
+.x16{
+background-color:#3399ff;	
+}
+.x32{
+background-color:#ffa333;	
+}
+.x64{
+background-color:#cef030; /* aaf010*/
+}
+.x128{
+background-color:#179c26; 
+}
+.x256{
+background-color:#990303; 
+}
+.x512{
+background-color:#6BA5DE; 
+}
+.x1024{
+background-color:#DCAD60; 	
+}
+.x2048{
+background-color:#FCAA6D; 
+}
+
+
+.social {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #bdc3c7;
+    margin-right: 10px;
+    vertical-align: middle;
+}
